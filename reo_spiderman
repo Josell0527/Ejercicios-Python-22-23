@@ -1,0 +1,22 @@
+puntoA= 0
+puntoB= 0
+negativo=-1
+num1= 0
+num2=0
+
+puntoA= (int)(input("Dime a que distancia está el punto A \n"))
+puntoB= (int)(input("Dime a que distancia está el punto B \n"))
+
+
+if (puntoA<=puntoB):
+    print("Tendrás que ir por el punto A y después por el B")
+else:
+   print("Tendrás que ir por el punto B y después por el A")
+
+if (puntoA<0):
+ num1=((puntoA*negativo)*2)
+
+ if (puntoB<0):
+ num3=((puntoB*negativo)*2)
+
+print("El camino recorrido será de:", (num1+num2))
