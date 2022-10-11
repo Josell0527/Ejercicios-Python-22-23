@@ -19,5 +19,4 @@ vNombres.append(Nombres)
 #vNombres.append(input("Dime un nombre:")) OTRA FORMA
 vTelefonos.append(Telefonos)
 
-print(vNombres)
-print(vTelefonos)
+print("El telefono de", (vNombres), "es", (vTelefonos))
