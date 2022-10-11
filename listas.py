@@ -1,5 +1,8 @@
 #Listas de python, almacenan datos del mismo y distinto tipo
 #Definición e iniciación
+from operator import truediv
+
+
 vNombres= []
 print(type(vNombres))
 vNombres.insert(0,"Juanito")
@@ -24,3 +27,15 @@ print("La lista tiene", len(vNombres)) #len lee los elementos en este caso de vN
 
 
 print (vNombres)
+
+#BUCLE WHILE
+
+i=0
+bandera= True
+
+while (bandera == True):
+    print("NO hagas esto nunca", i)
+    i= i+1
+    if (i == 30000):
+        bandera= False 
+print("Terminado")
